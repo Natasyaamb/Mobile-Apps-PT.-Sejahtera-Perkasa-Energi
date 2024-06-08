@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Kitmap",
+    "slug": "Kitmap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/splashlast2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "splash": {
+        "backgroundColor": "#ffffff",
+        "resizeMode": "cover",
+        "mdpi": "./assets/images/splashlast.png",
+        "hdpi": "./assets/images/splashlast2.png",
+        "xhdpi": "./assets/images/splashnew.png"
+      },
+      "package": "com.aira_bilqis.Kitmap"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "32859a29-0b23-4450-ac20-9c8bbfd0ab92"
+      }
+    }
+  }
+}
